@@ -2,7 +2,7 @@
 
 A **Retrieval-Augmented Generation (RAG)** chatbot built with **LangChain.js** that enables intelligent conversations with your PDF documents. Supports both **Google Gemini** and **local Ollama models** for flexible deployment.
 
-## ✨ Features
+##  Features
 
 - 📄 **PDF Document Processing** - Load and process PDF files into searchable chunks
 - 🔍 **Vector Search** - Semantic search using Pinecone vector database
@@ -13,7 +13,7 @@ A **Retrieval-Augmented Generation (RAG)** chatbot built with **LangChain.js** t
 - ⚡ **Smart Chunking** - Recursive text splitting with overlap for better context
 - 🎯 **Context-Aware Responses** - Uses conversation history for relevant answers
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 PDF Document → Load → Split into Chunks → Embed → Store in Pinecone
